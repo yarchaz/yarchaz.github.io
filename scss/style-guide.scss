@@ -4,20 +4,16 @@
 
 // color palette - these colors will be the color swatches of the Colors section
 
-$accentColor: #89010F; // Red - Action color
-$darkColor: #1f110b; // Dark Brown
-$color-3: #e4655f; // Red
-$color-4: #e6e6e6; // light grey
-$color-5: #ffffff; // white
+$color-accent: #89010F; // Red - Action color
+$color-darkest: #1f110b; // Dark Brown
+$color-dark: #412312; // brown
+$color-med: #5F3916; // medium brown
+$color-light: #C7B299; // light brown
 
-// additional colors
-
-$success: #6fce72; // green
-$alert: $color-3; // red
 
 // fonts
-$primary-font: 'Merriweather', serif;
-$secondary-font: 'Open Sans', sans-serif;
+$primary-font: 'Didact Gothic', sans-serif;
+$display-font: 'Jim Nightshade', cursive;
 
 /* -------------------------------- 
 
