@@ -543,12 +543,20 @@ section {
 		}
 	}
 }
+@include MQ(S){
+	.cd-wireframes .cd-box {
+		width:100%;
+		display:grid;
+		grid-template-columns: auto auto;
+		grid-column-gap:50px;
+	}		
+}
+@include MQ(L){
 .cd-wireframes .cd-box {
 	width:300%;
-	display:grid;
-	grid-template-columns: auto auto;
-	grid-column-gap:50px;
+}	
 }
+
 .cd-typography .cd-box,
 .cd-buttons .cd-box,
 .cd-icons .cd-box,
