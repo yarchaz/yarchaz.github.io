@@ -120,7 +120,7 @@ header {
 	}
 }
 
-.cd-main-nav {
+.cd-main-nav{
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -176,7 +176,19 @@ header {
 		display: none;
 	}
 }
-
+.cd-primary-nav{
+	width:90%;
+	margin:0 auto;
+	li a {
+		display:block;
+		height:5em;
+		text-align:center;
+		padding-top:2.2em;	 			
+	}
+	li:first-of-type a{
+		margin-top:2%;
+	}
+}
 .nav-is-visible {
 	.cd-nav-trigger span {
 
@@ -531,7 +543,12 @@ section {
 		}
 	}
 }
-
+.cd-wireframes .cd-box {
+	width:300%;
+	display:grid;
+	grid-template-columns: auto auto;
+	grid-column-gap:50px;
+}
 .cd-typography .cd-box,
 .cd-buttons .cd-box,
 .cd-icons .cd-box,
