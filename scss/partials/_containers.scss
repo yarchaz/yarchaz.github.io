@@ -1,0 +1,13 @@
+/* -------------------------------- 
+
+Containers
+
+-------------------------------- */
+.cd-box {
+    /* this is the container of various design elements - i.e. the 2 logo of the branding section */
+    border: 1px solid $color-med;
+    border-radius: 3px;
+    background: $color-light;
+    box-shadow: 0 1px 1px rgba(#000, 0.05);
+    padding: 6px;
+  }

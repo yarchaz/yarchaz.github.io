@@ -1,0 +1,32 @@
+
+/* -------------------------------- 
+
+Header
+
+-------------------------------- */
+header {
+    background-color: white;
+  }
+  
+  .cd-logo {
+    /* logo box style */
+    background-color: white;
+    width: 120px;
+  
+    @include MQ(M) {
+      width: 180px;
+    }
+  }
+  
+  
+  
+  
+  .cd-download {
+    /* download button top-right visible on big devices */
+    background-color: white;
+  
+    .no-touch &:hover {
+      background-color: white;
+    }
+  
+  }

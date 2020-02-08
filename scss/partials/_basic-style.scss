@@ -280,7 +280,11 @@ main {
 
 	> h1 {
 		text-align: center;
-		margin: 3em 0;
+		margin: 3em 0 .5em 0;
+	}
+	> h2 {
+		text-align: center;
+		margin: 0 0 3em 0;
 	}
 
 	@include MQ(M) {
