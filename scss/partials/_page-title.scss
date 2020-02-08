@@ -1,0 +1,15 @@
+
+/* -------------------------------- 
+
+xPage title 
+
+-------------------------------- */
+
+main > h1 {
+    color: $color-darkest;
+  
+    @include MQ(L) {
+      /* title goes into the header on big devices */
+      color: $color-darkest;
+    }
+  }

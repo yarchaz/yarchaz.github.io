@@ -1,0 +1,56 @@
+/* -------------------------------- 
+
+xNavigation 
+
+-------------------------------- */
+.cd-main-nav, .cd-primary-nav {
+    /* main navigation background color - full screen on small devices */
+    background: white;
+  
+    li:nth-child(1) {
+      background-color: $color-dark;
+    }
+    li:nth-child(2) {
+      background-color: $color-darkest;
+    }
+    li:nth-child(3) {
+      background-color: $color-accent;
+    }
+    li:nth-child(4) {
+      background-color: $color-med;
+    }
+    li:nth-child(5) {
+      background-color: $color-light;
+    }
+    li:nth-child(6) {
+      background-color: $color-darkest;
+    }
+    li:nth-child(7) {
+      background-color: $color-dark;
+    }
+    li:nth-child(8) {
+      background-color: $color-med;
+    }
+    
+  
+    li a {
+      color: $color-light;
+      border-color: $color-darkest;
+    }
+  
+    @include MQ(M) {
+      li a {
+        color: $color-light;
+  
+        &.selected {
+          color: $color-med;
+          box-shadow: 0 2px 0 $color-darkest;
+        }
+  
+        // Will expand on hover
+        // &:hover { 
+          
+        // }
+      }
+    }
+  }
